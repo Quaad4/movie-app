@@ -1,10 +1,10 @@
 import './App.css'
-import MovieCard from './components/MovieCard'
+import Home from './pages/Home'
 
 function App() {
   return (
     <>
-      <MovieCard movie={{ url: 'https://example.com/poster.jpg', title: 'Example Movie', release_date: '2023-01-01' }} />
+      <Home />
     </>
   )
 }
